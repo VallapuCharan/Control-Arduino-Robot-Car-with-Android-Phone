@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/instrucmenu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textofhead"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize="45dp" />
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imgv1_ins_menu"
+    android:layout_marginTop="148dp"
+    android:src="@drawable/test"
+    android:scaleType="fitCenter"
+    android:adjustViewBounds="true"
+    android:maxHeight="400dp"
+    android:maxWidth="250dp"
+    android:layout_below="@+id/textView"
+    android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgv1_start_menu"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/testapp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:maxHeight="400dp"
+        android:maxWidth="250dp"
+        android:layout_below="@+id/imgv1_ins_menu"
+        android:layout_alignLeft="@+id/imgv1_ins_menu"
+        android:layout_alignStart="@+id/imgv1_ins_menu"
+        android:onClick="start" />
+</RelativeLayout>

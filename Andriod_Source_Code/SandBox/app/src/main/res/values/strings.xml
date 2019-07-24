@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SandBox</string>
+    <string name="textofhead">Bot Controller</string>
+    <string name="infopop">Instructions</string>
+    <string name="simpletext">OKAY</string>
+    <string name="menusearchbutton">SearchPairedDevices</string>
+    <string name="headinactivty">Paired Devices</string>
+    <string
+        name="action_settings">Settings</string>
+    <string
+        name="title_activity_ledctrl">Ledctrl
+</string>
+</resources>
